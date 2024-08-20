@@ -3,3 +3,49 @@ https://www.cnblogs.com/johnnyzen/p/18029696/data-governance-tools
 
 2.DataSphere Studio & Linkis 单机一键部署文档
 https://github.com/WeBankFinTech/DataSphereStudio-Doc/blob/main/zh_CN/%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2/DSS%26Linkis%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E6%96%87%E6%A1%A3%E5%8D%95%E6%9C%BA%E7%89%88.md
+
+3.深入理解數據治理：關鍵要素及操作步驟
+https://lndata-taiwan.medium.com/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E6%95%B8%E6%93%9A%E6%B2%BB%E7%90%86-%E9%97%9C%E9%8D%B5%E8%A6%81%E7%B4%A0%E5%8F%8A%E6%93%8D%E4%BD%9C%E6%AD%A5%E9%A9%9F-77a8da6ed055
+
+什麼是數據治理 Data Governance？
+數據治理(Data Governance)是企業內部確保數據的可得性、可用性、完整性和安全性的過程，貫穿數據從取得到拋棄的數據生命週期。
+有效的數據治理可保障數據一致性、可信度，並確保資料不會被濫用。
+隨著企業面臨越來越嚴格的資料隱私法規，且越來越依賴資料分析來幫助最佳化運營和推動業務決策，數據治理變得越發重要。
+
+數據治理的主要要素
+數據治理通常包含以下面向與要素：
+1.Data cataloging 數據目錄
+2.Data quality 數據品質
+3.Data classification 數據分類
+4.Data security 數據安全性
+5.Data entitlements management 數據權限管理
+6.Data lineage 數據沿襲
+7.Data discovery 數據探索
+8.Data sharing and collaboration 數據共享與協作
+Data cataloging 數據目錄
+是一個創建組織內所有數據資產清單的過程，旨在幫助組織數據人員盤點、了解和快速存取他們所需的數據；
+數據目錄也可作為所有可用數據的搜尋索引，包括有關其格式、結構、位置和用途的資訊。一般會利用元數據和數據管理工具，創建組織的數據目錄。
+
+Data quality 數據品質
+為了維持有效的數據治理，組織必須優先評估關鍵資料品質，例如準確性、完整性、即時性等，以提升數據驅動決策的可靠性。
+
+Data classification 數據分類
+根據數據的敏感度、價值和關鍵性對資料進行分類，使組織能夠根據風險等級和重要性識別和分類數據，並應用適當的安全措施和策略。
+
+Data security 數據安全性
+資料安全保護資訊在其生命週期中免遭未經授權的存取、損壞或盜竊，其包含硬體儲存設備、
+軟體應用程式以及組織程序邏輯等等。制定明確的治理政策以符合資安法規、維護客戶信任並保護資料免遭未經授權的存取或濫用。
+
+Data entitlements management 數據權限管理
+了解誰有權存取哪些資料並追蹤存取權限，主動識別授權過多的使用者或群組並調整存取權限，降低資料濫用的風險。
+
+Data lineage 數據沿襲
+指追踪數據在不同處理、轉換和不同系統之間如何移動和變化的過程。可幫助組織了解資料來源和使用情況，
+確保資料品質和可信度，掌握整個資料生命週期中的相關元資料和事件。
+
+Data discovery 數據探索
+從多個資料庫搜集、編目並分類數據，幫助組織管理數據、促進跨部門合作並推動創新，避免資料重複，應對治理挑戰。
+
+Data sharing and collaboration 數據共享與協作
+為了安全地跨部門或跨組織交換數據，並保持對敏感資訊使用方式的控制和透明性，
+企業需要數據市集平台與數據無塵室技術，做為數據提供者與需求者的橋樑。
