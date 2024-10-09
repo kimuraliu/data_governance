@@ -7,3 +7,8 @@ http://172.16.100.110:8585/signin
 OpenMetadata Documentation: Get Help Instantly
 https://docs.open-metadata.org/
 操作指南
+1.登入:
+2.攝取元數據:
+  設定連接器後，設定元資料攝取管道 以定期將元資料匯入 OpenMetadata。
+  導覽至設定 > 服務 > 資料庫，然後選擇您新增的服務。
+  前往「攝取」標籤並點選「新增元資料攝取」。
