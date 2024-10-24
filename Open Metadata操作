@@ -164,3 +164,13 @@ OpenMetadata 中的進階搜尋支援布林運算子和分面查詢來搜尋資�
 
 
 Chapter 2:Get a Quick Glance of the Data Assets 快速瀏覽數據資產，https://docs.open-metadata.org/latest/how-to-guides/data-discovery/preview
+對於探索頁面中顯示的每個資料資產，資料資產卡上都會顯示一些基本資訊。使用者可以查看每個資料資產的來源、資料資產名稱、描述、所有者（團隊/使用者詳細資料）、層級和使用情況資訊。
+OpenMetadata 在右側面板上提供資料資產的快速預覽。只需點擊相關資料資產旁的空白區域即可快速預覽。
+
+基於資料資產類型的預覽
+根據資料資產的類型（表格、主題、儀表板、管道、ML 模型、容器、術語表、標籤），快速預覽提供資訊。例如，顯示 的表格類型、查詢數和列tables
+同樣，快速瀏覽會顯示有關 的分割區、複製因子、保留大小、清理策略、最大訊息大小和架構類型的資訊topics。
+對於ML Models，它顯示Algorithm、Target、Server 和 Dashboard。
+
+
+
